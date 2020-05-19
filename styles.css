@@ -1,1 +1,80 @@
 
+body {
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: darkslategray;
+  background-image: url(images/lost_in_space_and_time.jpg);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.container
+{
+    width: 90%;
+    position: absolute;
+    top: 50%;
+    text-align: center;    
+}
+
+ .titre {
+    display: block;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+    color: wheat;
+    text-shadow: 4px 3px 3px darkblue;
+    position: relative;
+    top: -350px;
+    margin-top: 0;
+    margin-bottom: 0;
+     
+}
+
+.texte{
+  display: block;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 40px;
+  color: wheat;
+  position: relative;
+  top: -300px;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.investigator {
+  display: block;
+  max-width: 20%;
+  height: auto;
+  position: relative;
+  top: -540px;
+  left: 40px;
+  transform: rotate(-30deg);
+  }
+
+.elder_sign {
+  display: block;
+  max-width: 10%;
+  height: auto;
+  position: relative;
+  top: -540px;
+  left: 1200px;
+  
+}
+
+a
+{
+   text-decoration: none;
+   background-color: red;
+   color : white;
+   padding: 12px 24px;
+    display: inline-block;
+    border-radius: 25px;
+    text-transform: uppercase;
+    transition: 1s;
+}
+
+a:hover
+{
+    background: orangered;
+}
