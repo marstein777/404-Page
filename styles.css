@@ -15,7 +15,8 @@ body {
     width: 90%;
     position: absolute;
     top: 50%;
-    text-align: center;    
+    text-align: center;
+    height: auto;    
 }
 
  .titre {
@@ -52,29 +53,16 @@ body {
   transform: rotate(-30deg);
   }
 
-.elder_sign {
+a {
   display: block;
-  max-width: 10%;
+  max-width: 30%;
   height: auto;
   position: relative;
   top: -540px;
-  left: 1200px;
-  
-}
+  left: 500px;
+  background-image: url ( images/elder_sign.png);
+  color : white;
+  padding: 12px 24px;  
+  border-radius: 25px;
 
-a
-{
-   text-decoration: none;
-   background-color: red;
-   color : white;
-   padding: 12px 24px;
-    display: inline-block;
-    border-radius: 25px;
-    text-transform: uppercase;
-    transition: 1s;
-}
-
-a:hover
-{
-    background: orangered;
 }
